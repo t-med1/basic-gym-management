@@ -2,6 +2,8 @@
 
 Welcome to the Basic Gym Website repository! This project is designed to provide a simple yet effective online presence for a gym, showcasing pictures of the facility, coaches, and various sports offered. Users can register to stay updated on gym activities, and administrators have the ability to manage website content and handle user inquiries.
 
+![gymie-device-mockup](https://user-images.githubusercontent.com/1039236/36820312-3f709262-1d13-11e8-8ee6-0529120b8ac1.png)
+
 ## Features
 
 - **Gym Information:** Display pictures and details of the gym, coaches, and various sports offered.
