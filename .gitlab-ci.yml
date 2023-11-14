@@ -1,0 +1,15 @@
+stages:          # List of stages for jobs, and their order of execution
+  - build
+  - codeQuality
+
+build-job:       # This job runs in the build stage, which runs first.
+  stage: build
+  script:
+    - echo "Compiling the code..."
+    - echo "Compile complete."
+
+Code-quelity:
+  stage: codeQuality
+  script:
+    - C:/sonar-scanner/bin/sonar-scanner.bat -D"sonar.projectKey=gestion_gym" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.login=sqp_ca4b17756bada78856a4c2ca843c989fb6cec86f"
+    - echo "testing code is completed"

@@ -1,0 +1,18 @@
+{
+    "name": "dev/gestion-gym",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dev\\GestionGym\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IsmailBr",
+            "email": "ismailelhor145@gmail.com"
+        }
+    ],
+    "require": {}
+}

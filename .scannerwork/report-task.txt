@@ -1,0 +1,6 @@
+projectKey=golden_gym
+serverUrl=http://localhost:9000
+serverVersion=9.7.1.62043
+dashboardUrl=http://localhost:9000/dashboard?id=golden_gym
+ceTaskId=AYWgqUUgAer5RH9NUkgz
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYWgqUUgAer5RH9NUkgz
